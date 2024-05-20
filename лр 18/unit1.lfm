@@ -1,0 +1,70 @@
+object fMain: TfMain
+  Left = 316
+  Height = 472
+  Top = 172
+  Width = 416
+  Caption = 'Примеры работы с подпрограммами'
+  ClientHeight = 472
+  ClientWidth = 416
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 20
+    Top = 80
+    Width = 154
+    Caption = 'Введите любое число:'
+  end
+  object Edit1: TEdit
+    Left = 224
+    Height = 28
+    Top = 80
+    Width = 153
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 41
+    Top = 128
+    Width = 180
+    Caption = 'Пример удвоения №1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 50
+    Height = 38
+    Top = 192
+    Width = 173
+    Caption = 'Пример удвоения №2'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 53
+    Height = 42
+    Top = 247
+    Width = 168
+    Caption = 'Пример удвоения №3'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 56
+    Height = 42
+    Top = 310
+    Width = 164
+    Caption = 'Пример удвоения №4'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 60
+    Height = 40
+    Top = 362
+    Width = 163
+    Caption = 'Пример удвоения №5'
+    TabOrder = 5
+    OnClick = Button5Click
+  end
+end
